@@ -71,6 +71,10 @@ const Header = styled.header`
 const Logo = styled.img`
   width: 7.375rem;
 
+  @media (max-width: ${breakpoint("desktop")}) {
+    content: url("/icons/logo-large.svg");
+  }
+
   @media (min-width: ${breakpoint("desktop")}) {
     margin: ${space(0, 4)};
   }
