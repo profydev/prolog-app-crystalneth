@@ -4,10 +4,11 @@ export enum ProjectLanguage {
   python = "python",
 }
 
+// API statuses error, warning, info
 export enum ProjectStatus {
-  stable = "stable",
+  info = "info",
   warning = "warning",
-  critical = "critical",
+  error = "error",
 }
 
 export type Project = {
